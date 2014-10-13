@@ -1,0 +1,102 @@
+---
+layout: 'deck_unit'
+title: "Presenting Your Research Online"
+tags: []
+description: "People should be able to find your email address, institutional affiliation and keywords about your research using google."
+depends: ['']
+source: ['']
+duration: 5
+---
+
+include ../../../fragments/unit_mixins
+
+// * ***todo*** mixin blur not working!
+
+
++slide
+  p minimal requirement: being there
+  .notes: :t()
+    True story.  I'm editing a special issue of a journal on your research area.
+    I've seen that you've given a talk at a conference on this topic, and your abstract looks great.
+    You're just the person I'm looking for to review a paper, and, if that goes well, invite to speak
+    at a workshop.
+    Can I find your email address and a short description of your research by googling?
+    My experience is that, surprisingly often I can't.
+  .notes: :t()
+    If you want to be part of an academic community that is wider than the circle of people you know 
+    and correspond with, you need a web page of some kind.
+  .slide
+    ul.notes.show
+      li full name
+      li email address
+      li institution and position
+      li two sentences about your research
+    .notes: :t()
+      This is the minimum you should provide.  
+      In addition, a photograph that enables people to tell whether you are the person they
+      met at whatever conference is a good idea.
+  .slide
+    p example: 
+      a(href="https://philosophy.berkeley.edu/people/detail/294", target="_blank").bold Adam Bradley [link]
+    
+
++slide_rh_white
+  .notes: :t()
+    What research should you present online?
+  .step1
+    +run_across
+      p.center what (not) to present online
+    +left_half
+      p thesis abstract
+      p thesis table of contents
+      p published papers
+      p talks : title, event, abstract, handout slides
+      p cv
+    +right_half
+      p no work in progress
+      p ? unpublished papers
+  +blur2_('.step1')
+  .slide
+    +run_across
+      p.em-above.center formats
+    +left_half
+      p html
+      p pdf
+    +right_half
+      p no editable formats
+      p e.g. doc, ppt
+
++slide_rh_white
+  +run_across
+    p.center examples good and bad
+  +left_half
+    p 
+      a(href="http://users.ox.ac.uk/~newc3660/", target="_blank") Jeremy Goodman
+    p 
+      a(href="http://www.eugenechislenko.com/", target="_blank") Eugene Chislenko
+    p 
+      a(href="http://paulinasliwa.weebly.com/", target="_blank") Paulina A. Sliwa
+    p 
+      a(href="http://butterfill.com/", target="_blank") me
+    p.em-above
+      img(src='/img/slides_qr.png')
+  +right_half
+    p 
+      a(href="http://www.benbrastmckie.com/", target="_blank") benbrastmckie
+
+
++slide
+  p Tools?
+  .notes: :t()
+    Should you use these things.  I have no idea, because I don't.
+  .indent
+    p google scholar public personal page
+    p philosophers' index
+    p researchgate
+    p academia.edu
+    p twitter
+    p 
+      span.holly tell Holly (Holly.Ilbury@warwick.ac.uk)
+      span !
+    p ...
+  +invert('.holly')

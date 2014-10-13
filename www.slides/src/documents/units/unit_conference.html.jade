@@ -1,0 +1,239 @@
+---
+layout: 'deck_unit'
+title: "Giving Talks"
+tags: []
+description: "What is involved in presenting your research when giving a talk?"
+duration: 5
+titleNotes: "I know there's a whole session on giving conference talks so I want to be quite brief here.  I also want you to think more broadly than conferences.  Think, for example, about giving a work-in-progress talk at Warwick."
+---
+
+include ../../../fragments/unit_mixins
+
+
++slide_middle
+  +timer-element('talk-preparation','120s',{hide:true})
+    p.center.step2.hide 
+      span if consuming
+    p.center 
+      span thinking hours
+      span.step2.hide ,
+    p.center.step2.hide 
+      span prepare 
+      span.meticulously meticulously
+  .notes: :t()
+    When giving a talk, think about how many thinking hours you are consuming.
+    A 20 minute talk to 30 people consumes ten hours of other people's thinking time.
+    Other people's thinking hours are an extremely scarce resource.
+    Most of us are unlikely to get many.
+  +show('.step2')
+  .notes: :t()
+    If you are going to consume so many thinking hours, you had better prepare meticulously.
+  +blur_('span:not(.meticulously)')
+  +show-timer('talk-preparation')
+  .notes: :t()
+    What does meticulous preparation mean?
+    Turn to your neighbour and spend two minutes reflecting on this.
+  +start-timer('talk-preparation')
+  .notes: :t()
+    [You are discusing what is involved in preparing meticulously for a talk.]
+  .notes: :t()
+    I think the most important aspects of preparation concern the verbal performance.
+    I suggest these matter most:
+    \begin{enumerate}
+    \item Select your material (everything you say you have already thought through carefully, and discussed it with others ideally including your supervisor)
+    \item Be relevant (each talk is tailored to the particular audience)
+    \item Be awake (you haven't spent all night writing your talk, nor socializing)
+    \item Learn your lines (even if you are reading it out, you should know key formulations and be able to quote from memory)
+    \item Practice giving it  (practice the talk every day for seven days before, and practice similing at your audience while speaking) 
+    \item Know your timings (you won't know exactly how much time you have in advance, so be sure you can seamlessly cut material or speed up)
+    \end{enumerate}
+
+section.slide
+  +middle
+    p.center.huge-glow-150 7 days
+    p.right.huge-glow-150(style='margin-top:-70pt').hide.um um
+  +reset
+    +middle
+      p.center
+        span if consuming
+      p.center 
+        span thinking hours
+        span ,
+      p.center.step2 
+        span prepare 
+        span.meticulously meticulously
+  .notes: :t()
+    I want to emphasise the idea that you should practice giving you talk every day for 7 days before 
+    giving it.
+    Good preparation follows from this.
+  +show('.um')
+  .notes: :t()
+    Incidentally, you can easily tell whether someone has prepared meticulously for a talk.
+    If they say um while giving the talk, they have not prepared meticulously.
+    They are wasting your thinking hours.
+
+
+section.slide
+  .notes: :t()
+    In presenting your research in a talk, the most important thing is the talk, of course.
+    But what about the supporting materials, your slides and handouts?
+    The first thing I want to say is that you should always both use slides and distribute a 
+    handout.
+  +middle
+    p.center.huge-glow.the-talk.hide talk
+  +reset
+    +middle
+      p.center.slides-and-handout
+        span.the-slides slides
+        span  + 
+        span.the-handout handout
+      p.center
+        span.design.hide design
+        span.design-avoid.hide : avoid
+  +invert('.the-handout')
+  .notes: :t()
+    Handouts are going out of fashion but I believe you should always create a handout.
+    Before I say why, let me ask you.
+    \textbf{What are the functions a handout can serve when you are giving a talk?}
+  .notes: :t()
+    There are two excellent reasons for using a handout.
+  .notes: :t()
+    The first is that they allow your audience to jump around different parts of your talk 
+    and to return to key claims and quotes.  
+    This is particularly useful in discussion.
+    Let me put it this way.
+    There is a tendency for discussion of a talk to focus on the last thing the speaker said.
+    This is probably because people can't easily remember things the speaker said further back in the 
+    talk.
+    You can improve the situation by providing a handout that helps people to recall material from
+    several parts of your talk.
+  .notes: :t()
+    Using a handout in this way will also facilitate better disucssion after the talk, either 
+    later in the day during social events or, sometimes, even days later.
+  .notes: :t()
+    The second reason for using a handout is this.
+    Everyone present has your name and email address in their hands.
+    You shouldn't underestimate the importance of this.  
+    For a typical audience with a typical speaker name, I'd guess that less than half will remember 
+    your name even 10 minutes into the talk.
+    And of course you want people to have your email address so they can ask you questions after.
+  .notes: :t()
+    So much for why you should use a handout.
+    What makes a good handout?
+    \begin{enumerate}
+    \item Your name and institutional email address are on it, of course.
+    \item It presents the structure of your argument
+    \item It contains quotes, claims and anything else the audience might want to ask about
+    \item It provides useful citations
+    \end{enumerate}
+    \textbf{Am I missing anything?}
+  .notes: :t()
+    One issue to consider with handouts is how much you are prepared to put on them.
+    At one extreme, 
+    some people provide multi-page handouts that are like a compressed version of the paper they're 
+    giving.
+    When I get these handouts, I usually spend a fair bit of the talk not listening but reading the 
+    handout.   I also usually read ahead of the speaker.
+    The other extreme is just to put quotes, citations and key claims onto the handout.
+    When I get these handouts, I usually write quite detailed notes in the talk in which I try to 
+    capture the structure of the talk and its main arguments.
+    I'm torn between these two extremes; I associate the more extensive handouts with better 
+    presentations, but I also like the idea that in attending a talk I'm focussed on the speaker and 
+    not just reading a papers.
+    \textbf{Help me out here.  What do you think?}
+  +uninvert_('.the-handout')
+  +invert('.the-slides')
+  .notes: :t()
+    I've just been saying that 
+    the primary function of a handout is to allow the audience to understand the structure and central
+    points of your talk without actually listening to what you say very carefully.
+    \textbf{Why use slides in presenting your research?}
+  .notes: :t()
+    Here are three reasons.
+    First, well-crafted slides will allow people who drift off to see whether you have moved on to a 
+    new point or not.
+    (Look at this slide and ask youself, Is he still waffling about handouts or has he moved on?  You can 
+    tell that I've moved on, surely?)
+    Second, slides allow you to underline things without making people search through a handout.
+    (You've seen a couple of examples of this in this talk, e.g. I used a slide to emphasise 
+    you should practice your talk for seven days before giving it.)
+    Third, using slides means that people are not looking at you all the time.
+  .notes: :t()
+    So here's my opinion.
+    You do not present your research on your slides, except where using diagrams or charts.
+    Rather your slides work in roughly the way that manual gestures do.
+    They provide emphasis at key points, and they indicate where one point ends and another begins.
+    \textbf{This is just one quite extreme opinion.  But I'm curious.  Who agrees with me about slides?  Are there more plausible views about the function of slides?}
+  .notes: :t()
+    So much for what slides are for.
+    What makes a good slide deck?
+    \begin{enumerate}
+    \item transitions between slides clearly convey transitions in the structure of the talk
+    \item the right points are emphasised
+    \end{enumerate}
+    \textbf{Am I missing anything?}
+  .notes: :t()
+    Before we move on, I also want to ask, What makes a bad slide deck?
+    (Bad handouts are typically the result of insufficient preparation, whereas it's possible to spend
+    arbitrarily long amounts of time preparing a truly atrocious slide deck.)
+  .notes: :t()
+    So what makes a bad slide deck?
+    \begin{enumerate}
+    \item the slide deck is the speaker's talk notes
+    \end{enumerate}
+    A lot of philosophers prepare a talk by writing sentences onto slides, and then show the slides
+    while they are talking.
+    This is terrible practice for at least three reasons.
+    First, your slides become a distraction from your talk.
+    Second, it makes your talk more boring than necessary.
+    Third, it's harder to read and listen simultaneously than to just do one or the other.
+    Your talk notes and your slides have completely different functions, so one cannot serve as the other.
+    
+    You should never need to read your slides while giving a talk.
+    If you find yourself reading your slides, you have not prepared meticulously.
+            
+    \textbf{Am I right?  Am I missing anything on what makes a bad slide deck?}
+    
+  +uninvert_('.the-slides')
+  +blur2_('.slides-and-handout')
+  +show('.design')
+  .notes: :t()
+    So far we haven't talked about design.  
+    I want to encourage you not to worry about design too much.
+    For some people, cut and paste is something they do with scissors and glue.
+    I think this is fine.
+    I've seen beautiful handouts and I've seen handouts that have been literally glued together and
+    then photocopied.  As long as I can easily navigate through and read them, I think the design is not 
+    critical.
+  +show('.design-avoid')
+  .notes: :t()
+    Let me put it like this.
+    Meticulous preparation demands hours of your time.
+    So if you prepare meticulously, you probably don't have time for design.
+    Just try to avoid obvious mistakes:
+    \begin{enumerate}
+    \item print large and use generous margins
+    \item use a one font, colour and size 
+    \item never animate anything
+    \end{enumerate}
+  .notes: :t()
+    There are several talks I can remember for extraneous reasons; Joel Smith used a particularly nice
+    quality of paper for a handout at a talk at the joint session when we were graduate students,
+    and Gergo Csibra gave a talk here in Warwick with weird animated symbols.
+    But I can't remember the content of any of these talks.
+
+
++slide_middle
+  .notes: :t()
+    One last thing.
+    We've just been talking about how to use slides and handouts in presenting your research.
+    But the key thing in giving a talk is that you are there with the audience in one room
+    (or usually).  So ...
+  p.center.notes.ctd.show let your body express your ideas
+  .notes: :t()
+    This sounds like a funny thing to emphasise.  
+    But if you aren't doing this, should you be presenting your research by giving a talk at all?
+  .notes: :t()
+    Make sure people can see your face and your hands.
+    Don't have anything in your hands.
+    Look at your audience.

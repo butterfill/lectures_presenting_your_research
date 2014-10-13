@@ -1,0 +1,50 @@
+---
+layout: 'default2'
+title: 'Presenting Your Research'
+weburl: ''
+units: []
+lecture_date: '2013/10/3'
+---
+
+include ../../fragments/lecture_mixins
+include ../../fragments/unit_mixins
+
+- var images = get_images('bees')
+
++title_slide({document:document, images:images})
+  .notes: :t()
+    I want to start with perhaps the simplest case of presenting your research ...
+
+//- unit
+//- What is your thesis about?
+
+//- What Is Your Thesis About?
++insert_unit({unit:'talking', title_slide:false, images:images, handout:true})
+
+  
+
+//- outline of the lecture
++slide
+  p outline
+  ol
+    - each unit_num in document.units
+      - unit = get_unit(unit_num)
+      li.notes.show
+        a(href="#{unit.url}") #{unit.title}
+        //- span(style="font-size:50%;color:grey;")  (#{unit_num})
+      .notes.ctd ... #{unit.description}
+  +highlight-row_('li:eq(1)')
+  +blur2_('li')
+  +unblur2('li:eq(1)')
+
+//- presenting your research online
++insert_unit({unit:'online', title_slide:true, images:images, handout:true})
+
+//- giving talks
++insert_unit({unit:'conference', title_slide:true, images:images, handout:true})
+
+//- writing an abstract
++insert_unit({unit:'writing_an_abstract', title_slide:true, images:images, handout:true})
+
+//- Presenting Your Research In Writing
++insert_unit({unit:'written_presentation', title_slide:true, images:images, handout:true})
