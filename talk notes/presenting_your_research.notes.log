@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.11.28)  13 OCT 2014 14:53
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.11.28)  15 OCT 2014 09:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -977,49 +977,50 @@ LaTeX Info: Redefining \nameref on input line 61.
 
 LaTeX Info: Redefining \Ref on input line 61.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 78.
+(Font)              <6> on input line 80.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 87.
+(hyperref)                be the same. Added a new anchor on input line 90.
 
 [1
 
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 146.
+(hyperref)                be the same. Added a new anchor on input line 151.
+
+[2]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 200.
+
+[3] [4] [5] [6]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 421.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 180.
+(hyperref)                be the same. Added a new anchor on input line 451.
 
-[2] [3] [4] [5]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 372.
-
-[6]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 399.
-
-No file presenting_your_research.notes.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 441.
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
+No file presenting_your_research.notes.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 498.
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 498.
  (./presenting_your_research.notes.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 441.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 441.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 441.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 498.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 498.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 498.
  ) 
 Here is how much of TeX's memory you used:
  23593 strings out of 493938
  450855 string characters out of 6148856
- 475377 words of memory out of 5000000
+ 476056 words of memory out of 5000000
  26647 multiletter control sequences out of 15000+600000
  8067 words of font info for 47 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 48i,6n,80p,685b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,6n,80p,685b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on presenting_your_research.notes.pdf (7 pages).
+Output written on presenting_your_research.notes.pdf (8 pages).

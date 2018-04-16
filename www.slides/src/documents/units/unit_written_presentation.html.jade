@@ -15,9 +15,12 @@ include ../../../fragments/unit_mixins
     span circulate your writing 
     span.often often
     span , 
+  p.notes.ctd.show 
     span.not-too-early not too early
     span , and 
-    span.prepare-meticulously prepare meticulously
+  p.notes.ctd.show 
+    span mostly among 
+    span.friends friends
   +invert('.often')
   .notes: :t()
     Before submitting some writing to a journal certainly, and ideally to a conference as well,
@@ -33,11 +36,9 @@ include ../../../fragments/unit_mixins
     I think a good rule of thumb is this.  
     Before circulating something, I have finished it on one day
     and read the whole thing through, out loud, the next day.
-    Only then is it ready to circulate.
-  +uninvert_('.not-too-early')
-  +invert('.prepare-meticulously')
+    Only then is it ready to circulate. (And, often enough, I find it isn't yet ready to circulate.)
   .notes: :t()
-    And keep thinking hours in mind: the work you circulate should be meticulously prepared.
+    Keep thinking hours in mind: the work you circulate should be meticulously prepared.
     This is true even when sharing it among friends.
     This includes:
     \begin{enumerate}
@@ -47,4 +48,8 @@ include ../../../fragments/unit_mixins
     \item there are no typos or formatting errors
     \item citations are present and complete 
     \end{enumerate}
-
+  +uninvert_('.not-too-early')
+  +invert('.friends')
+  .notes: :t()
+    Good friends read each others’ work.
+  +uninvert('.friends')
